@@ -1,0 +1,28 @@
+body{
+	margin:0;
+	background-color: orange;
+}
+section{
+
+}
+
+	.heading {
+    display: flex;
+    justify-content: center;
+    background-color: #e0f2f1;
+    height: 200px;
+    width: 80%;
+    margin-left: 10%;
+    align-content: stretch;
+    flex-wrap: wrap;
+    align-items: center;
+    }
+    .heading h1{
+    	font-weight: 600;
+
+    }
+  @media only screen and (max-width: 7608px) {
+  .heading h1 {
+    font-size: 3.5rem;
+  }
+}
